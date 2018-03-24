@@ -175,6 +175,8 @@
 	  </div> 
 </div>
 
+@show
+@section('mainBody')
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
@@ -499,7 +501,7 @@
 		</div>
 	</div>
 </div>
-
+@show
 @section('footer')
 <!-- Footer ================================================================== -->
 	<div  id="footerSection">
@@ -549,6 +551,7 @@
 	
 	<!-- Themes switcher section ============================================================================================= -->
 	@show
+	
 	@section('themeBox')
 <div id="secectionBox">
 <link rel="stylesheet" href="themes/switch/themeswitch.css" type="text/css" media="screen" />
@@ -605,6 +608,6 @@
 </div>
 
 <span id="themesBtn"></span>
-
+	@show
 </body>
 </html>

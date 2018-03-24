@@ -1,11 +1,21 @@
 ﻿@extends('layouts.master')
 
 @section('title')
-Bimal souvenirs for every events
+Bimal Integrated Home, Kitchen and Gift Items
 @endsection
-@section('carousel')
-	
 
-	
-	
-@section('themebox')	
+@section('carousel')
+@parent
+@endsection
+@section('mainBody')
+@parent
+@endsection
+@section('themeBox')
+@endsection
+@section('footer')
+@parent
+@endsection
+
+@section('header')
+@parent
+@endsection
