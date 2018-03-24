@@ -1,1 +1,3 @@
-https://medium.com/@ezp127/laravel-5-4-native-user-authentication-role-authorization-3dbae4049c8a
+https://devmarketer.io/learn/setting-multi-authentication-laravel-5-4-part-1/
+
+https://github.com/muvatech/Laravel-5.4-Multiple-Authentication-System
